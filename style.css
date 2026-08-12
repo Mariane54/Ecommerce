@@ -1,10 +1,22 @@
-h1{
+bady{
     background: #ccc;
-    text-align: center;
 }
-head{
-    
+h1{
+    text-align: center;
+    height: 150px;
+    border: 10px solid #000000;
+    padding-top: 20px;
+    margin: 15px;
 }
 #banner{
     width: 100%;
+}
+.itens{
+    font-style: italic;
+}
+.benefícios{
+    background: #ffffff;
+}
+.principal{
+    background: #cccccc;
 }
