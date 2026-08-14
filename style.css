@@ -3,7 +3,7 @@ bady{
 }
 h1{
     text-align: center;
-    height: 15px;
+    height: 150px;
     border: 10px solid #000000;
     padding-top: 20px;
     margin: 15px;
@@ -16,7 +16,19 @@ h1{
 }
 .benefícios{
     background: #ffffff;
+    padding: 20%;
+}
+h2{
+
 }
 .principal{
     background: #cccccc;
+    padding: 30px;
+}
+
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
 }
