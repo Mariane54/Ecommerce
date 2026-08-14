@@ -19,16 +19,16 @@ h1{
     padding: 20%;
 }
 h2{
-  text-align: center;
+    text-align: center;
 }
-.principal{
-    background: #cccccc;
-    padding: 30px;
-}
-
 ul{
     display: inline-block;
     vertical-align: top;
     width: 20%;
     margin-right: 15%;
 }
+.principal{
+    background: #cccccc;
+    padding: 30px;
+}
+
