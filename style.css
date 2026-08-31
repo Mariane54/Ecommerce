@@ -4,8 +4,6 @@ body {
     margin: 0;
     padding: 0;
 }
-
-/* === CABEÇALHO === */
 .caixa {
     position: relative;
     max-width: 940px;
@@ -25,8 +23,6 @@ header h1 {
 header img {
     width: 150px;
 }
-
-/* === MENU DE NAVEGAÇÃO === */
 nav {
     position: absolute;
     top: 40px;
@@ -56,15 +52,11 @@ nav a:hover {
     color: #C78C19;
     text-decoration: underline;
 }
-
-/* === BANNER === */
 #banner {
     width: 100%;
     height: auto;
     display: block;
 }
-
-/* === SEÇÃO PRINCIPAL === */
 .principal {
     background: #cccccc;
     padding: 30px;
@@ -78,8 +70,6 @@ h2 {
     text-align: center;
     margin-bottom: 20px;
 }
-
-/* === LISTA DE BENEFÍCIOS === */
 .itens {
     font-style: italic;
     margin: 10px 0;
@@ -107,8 +97,6 @@ h2 {
     margin-left: auto;
     margin-right: auto;
 }
-
-/* === RODAPÉ === */
 footer {
     text-align: center;
     background: url("bg.jpg") #333;
@@ -126,8 +114,6 @@ footer img {
     font-size: 13px;
     margin: 20px 0 0;
 }
-
-/* === FORMULÁRIO (contato.html) === */
 form {
     max-width: 940px;
     margin: 60px auto 40px;
