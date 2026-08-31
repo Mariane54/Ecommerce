@@ -1,3 +1,8 @@
+
+Mariane Gonçalves costa <costa.goncalves.mariane360@gmail.com>
+9:17 AM (9 hours ago)
+to me
+
 header {
     background: #BBBBBB;
     padding: 20px 0;
@@ -5,21 +10,15 @@ header {
 
 .caixa {
     position: relative;
-    max-width: 940px;
+    max-width: 940px; /* ✅ Em vez de width fixo */
     margin: 0 auto;
     padding: 0 20px;
 }
 
 nav {
     position: absolute;
-    top: 30px;
-    right: 20px;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+    top: 110px;
+    right: 0;
 }
 
 nav li {
@@ -40,24 +39,17 @@ nav a:hover {
     text-decoration: underline;
 }
 
-/* === PRODUTOS — AQUI ESTÁ O QUE FALTA! === */
 .produtos {
     max-width: 940px;
     margin: 0 auto;
-    padding: 50px 20px;
+    padding: 50px 0;
 }
 
 .produtos h2 {
     font-size: 30px;
-    font-weight: bold;
+    font-weight: bold; /* ✅ Corrigido: font-weight */
     text-align: center;
     margin-bottom: 30px;
-}
-
-.produtos ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
 }
 
 .produtos li {
@@ -70,7 +62,6 @@ nav a:hover {
     box-sizing: border-box;
     border: 2px solid #000000;
     border-radius: 10px;
-    background: #ffffff;
 }
 
 .produtos li:hover {
@@ -88,12 +79,10 @@ nav a:hover {
 .produtos h3 {
     font-size: 20px;
     font-weight: bold;
-    margin-bottom: 10px;
 }
 
 .produto-descricao {
     font-size: 18px;
-    margin: 10px 0;
 }
 
 .produto-preco {
@@ -102,7 +91,6 @@ nav a:hover {
     margin-top: 10px;
 }
 
-/* === RODAPÉ === */
 footer {
     text-align: center;
     background: url("bg.jpg") #333;
