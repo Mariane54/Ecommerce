@@ -1,65 +1,63 @@
-/* ✅ Corrigido: body em vez de bady */
 body {
     background: #ccc;
-        font-family: Arial, sans-serif;
-        }
+    font-family: Arial, sans-serif;
+}
 
-        h1 {
-            text-align: center;
-                height: 150px;
-                    line-height: 150px;
-                        border: 10px solid #000000;
-                            padding-top: 20px;
-                                margin: 15px;
-                                    box-sizing: border-box;
-                                    }
+h1 {
+    text-align: center;
+    height: 150px;
+    line-height: 150px;
+    border: 10px solid #000000;
+    padding-top: 20px;
+    margin: 15px;
+    box-sizing: border-box;
+}
 
-                                    #banner {
-                                        width: 100%;
-                                            height: auto;
-                                                display: block;
-                                                }
+#banner {
+    width: 100%;
+    height: auto;
+    display: block;
+}
 
-                                                .itens {
-                                                    font-style: italic;
-                                                        margin: 10px 0;
-                                                        }
+.itens {
+    font-style: italic;
+    margin: 10px 0;
+}
 
-                                                        /* ✅ Corrigido: beneficios com 'c' */
-                                                        .beneficios {
-                                                            background: #ffffff;
-                                                                padding: 30px; /* ✅ Troquei % por px */
-                                                                    margin-top: 20px;
-                                                                    }
+/* ✅ Corrigido: beneficios com 'c' */
+.beneficios {
+    background: #ffffff;
+    padding: 30px; /* ✅ Troquei % por px */
+    margin-top: 20px;
+}
 
-                                                                    h2 {
-                                                                        text-align: center;
-                                                                            margin-bottom: 20px;
-                                                                            }
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
 
-                                                                            ul {
-                                                                                display: inline-block;
-                                                                                    vertical-align: top;
-                                                                                        width: 20%;
-                                                                                            margin-right: 15%;
-                                                                                            }
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
 
-                                                                                            .principal {
-                                                                                                background: #cccccc;
-                                                                                                    padding: 30px;
-                                                                                                        margin: 20px 0;
-                                                                                                        }
+.principal {
+    background: #cccccc;
+    padding: 30px;
+    margin: 20px 0;
+}
 
-                                                                                                        footer {
-                                                                                                            text-align: center;
-                                                                                                                background: url("bg.jpg") #333;
-                                                                                                                    padding: 40px 0;
-                                                                                                                        color: white;
-                                                                                                                        }
+footer {
+    text-align: center;
+    background: url("bg.jpg") #333;
+    padding: 40px 0;
+    color: white;
+}
 
-                                                                                                                        .copyright {
-                                                                                                                            color: #ffffff;
-                                                                                                                                font-size: 13px;
-                                                                                                                                    margin: 20px 0 0;
-                                                                                                                                    }
-                                                                                                                                    
+.copyright {
+    color: #ffffff;
+    font-size: 13px;
+    margin: 20px 0 0;
+}
