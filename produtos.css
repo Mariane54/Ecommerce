@@ -1,16 +1,12 @@
-
-Mariane Gonçalves costa <costa.goncalves.mariane360@gmail.com>
-9:17 AM (9 hours ago)
-to me
-
 header {
     background: #BBBBBB;
     padding: 20px 0;
 }
 
 .caixa {
-    position: relative;
-    max-width: 940px; /* ✅ Em vez de width fixo */
+     position: relative; 
+    max-width: 940px;
+    max-width: 940px; 
     margin: 0 auto;
     padding: 0 20px;
 }
