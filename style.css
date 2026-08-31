@@ -1,63 +1,125 @@
-body {
-    background: #ccc;
-    font-family: Arial, sans-serif;
-}
-
-h1 {
-    text-align: center;
-    height: 150px;
-    line-height: 150px;
-    border: 10px solid #000000;
-    padding-top: 20px;
-    margin: 15px;
-    box-sizing: border-box;
-}
-
-#banner {
-    width: 100%;
-    height: auto;
-    display: block;
-}
-
-.itens {
-    font-style: italic;
-    margin: 10px 0;
-}
-
-/* ✅ Corrigido: beneficios com 'c' */
-.beneficios {
-    background: #ffffff;
-    padding: 30px; /* ✅ Troquei % por px */
-    margin-top: 20px;
-}
-
-h2 {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-ul {
-    display: inline-block;
-    vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
-}
-
-.principal {
-    background: #cccccc;
-    padding: 30px;
-    margin: 20px 0;
-}
-
-footer {
-    text-align: center;
-    background: url("bg.jpg") #333;
-    padding: 40px 0;
-    color: white;
-}
-
-.copyright {
-    color: #ffffff;
-    font-size: 13px;
-    margin: 20px 0 0;
-}
+ body {
+     background: #ccc;
+     font-family: Arial, sans-serif;
+     margin: 0;
+     padding: 0;
+ }
+ /* === CABEÇALHO === */
+ .caixa {
+     position: relative;
+     max-width: 940px;
+     margin: 0 auto;
+     padding: 20px 20px;
+ }
+ header h1 {
+     height: auto;
+     line-height: normal;
+     border: none;
+     padding-top: 0;
+     margin: 0;
+     text-align: left;
+ }
+ header img {
+     width: 150px;
+ }
+ /* === MENU DE NAVEGAÇÃO === */
+ nav {
+     position: absolute;
+     top: 40px;
+     right: 20px;
+ }
+ nav ul {
+     list-style: none;
+     padding: 0;
+     margin: 0;
+ }
+ nav li {
+     display: inline;
+     margin: 0 0 0 15px;
+ }
+ nav a {
+     text-transform: uppercase;
+     color: black;
+     font-weight: bold;
+     font-size: 22px;
+     text-decoration: none;
+ }
+ nav a:hover {
+     color: #C78C19;
+     text-decoration: underline;
+ }
+ /* === BANNER === */
+ #banner {
+     width: 100%;
+     height: auto;
+     display: block;
+ }
+ /* === SEÇÃO PRINCIPAL === */
+ .principal {
+     background: #cccccc;
+     padding: 30px;
+     margin: 20px 0;
+ }
+ h2 {
+     text-align: center;
+     margin-bottom: 20px;
+ }
+ /* === LISTA DE BENEFÍCIOS === */
+ .itens {
+     font-style: italic;
+     margin: 10px 0;
+ }
+ .beneficios {
+     background: #ffffff;
+     padding: 30px;
+     margin-top: 20px;
+ }
+ .beneficios ul {
+     list-style: disc;
+     padding-left: 20px;
+ }
+ /* === RODAPÉ === */
+ footer {
+     text-align: center;
+     background: url("bg.jpg") #333;
+     padding: 40px 0;
+     color: white;
+ }
+ footer img {
+     width: 150px;
+     margin-bottom: 20px;
+ }
+ .copyright {
+     color: #ffffff;
+     font-size: 13px;
+     margin: 20px 0 0;
+ }
+ /* === FORMULÁRIO (contato.html) === */
+ form {
+     max-width: 940px;
+     margin: 60px auto 40px;
+     padding: 0 20px;
+ }
+ form label {
+     display: block;
+     font-size: 20px;
+     margin: 0 0 10px;
+ }
+ form input {
+     display: block;
+     margin: 0 0 20px;
+     padding: 10px 25px;
+     width: 50%;
+ }
+ form input[type="submit"] {
+     width: auto;
+     cursor: pointer;
+     background: #C78C19;
+     color: white;
+     border: none;
+     font-size: 18px;
+     font-weight: bold;
+ }
+ form input[type="submit"]:hover {
+     background: #daa520;
+ }
