@@ -1,4 +1,4 @@
-bady{
+body{
     background: #ccc;
 }
 h1{
@@ -14,7 +14,7 @@ h1{
 .itens{
     font-style: italic;
 }
-.benefícios{
+.beneficios{
     background: #ffffff;
     padding: 20%;
 }
